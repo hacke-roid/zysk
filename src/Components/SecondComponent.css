@@ -1,0 +1,94 @@
+.second-container-section{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: 0;
+    text-align: center;
+}
+
+.feature-container p{
+    margin: 8px;
+}
+
+.font-para{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.second-container-section-2{
+    /* margin-top: 30px; */
+    padding: 10px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-box-all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.container-box{
+    border: 2px solid black;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    /* transform: translateY(30px); */
+    
+}
+
+.container-box p{
+    margin: 8px;
+}
+
+.sisyphus-img{
+    width: 400px;
+    height: 150px;
+}
+
+.sisyphus-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.profile-photo{
+    /* border: 2px solid purple; */
+    width: 64px;
+    height: 64px;
+}
+
+.profile-photo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.header-name{
+    gap: 0;
+}
+
+.header-name h3,h5{
+    margin: 0;
+}

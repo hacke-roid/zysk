@@ -1,0 +1,51 @@
+.third-component-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 80px;
+    background-color: rgb(232, 215, 255);
+    
+}
+
+.third-component-1 p{
+    margin: 0px;
+}
+
+.stat-img{
+    width: 80%;
+    float: right;
+    
+}
+
+.stat-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+.iphone-container{
+    width: 100%;
+    position: relative;
+}
+
+.iphone-img{
+    width: 400px;
+    height: 750px;
+    /* display: flex; */
+    position: absolute;
+}
+
+.iphone-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border: 10px solid black;
+    border-radius: 20px;
+    position: relative;
+    top: -800px;
+    
+}
